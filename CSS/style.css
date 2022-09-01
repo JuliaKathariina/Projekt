@@ -1,0 +1,14 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-image: url("Design ohne Titel.jpg");
+  }
+
