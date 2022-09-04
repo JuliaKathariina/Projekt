@@ -1,14 +1,50 @@
 
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: monospace;
-    font-size: 1rem;
-    line-height: 1.5;
-    background-image: url("Design ohne Titel.jpg");
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 
+h1 {
+  color: rosybrown;
+  font-size: 3rem;
+  text-align: center;
+}
+.nav{
+  background-color: rgb(28, 199, 128);
+  color: rgb(0 0 0 / 0.5);
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+.body {
+  width: 400px ;
+  padding: auto;
+  z-index: 5 ;
+}
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+
+.box1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.box2 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.box3 {
+    grid-row: 2;
+    grid-column: 3;
+}
